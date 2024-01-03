@@ -9,13 +9,14 @@ F = (C * 9/5) + 32
 
 
 ## รับข้อมูลจากผู้ใช้งาน
-temp = input("Enter your Temp (Celsius) : ")
+temp = float(input("Enter your Temp (Celsius) : "))
 
 
 
 
 ## แปลงอุณหภูมิ
-
+temp = (temp * 9/5) + 32
 
 
 ## แสดงผล
+print("Fahrenheit is ",round(temp,2))
