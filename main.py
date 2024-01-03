@@ -9,7 +9,7 @@ F = (C * 9/5) + 32
 
 
 ## รับข้อมูลจากผู้ใช้งาน
-temp = 
+temp = input("Enter your Temp (Celsius) : ")
 
 
 
